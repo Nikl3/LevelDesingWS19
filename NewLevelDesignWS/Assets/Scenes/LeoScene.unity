@@ -469,7 +469,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 8
+>>>>>>> 426d7a6d6ce7bec8dde70aa7facdc671d139c0e1
 =======
   m_RootOrder: 8
 >>>>>>> 426d7a6d6ce7bec8dde70aa7facdc671d139c0e1
@@ -751,8 +755,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 4
+=======
+  m_Father: {fileID: 656145086}
+  m_RootOrder: 5
+>>>>>>> 426d7a6d6ce7bec8dde70aa7facdc671d139c0e1
 =======
   m_Father: {fileID: 656145086}
   m_RootOrder: 5
