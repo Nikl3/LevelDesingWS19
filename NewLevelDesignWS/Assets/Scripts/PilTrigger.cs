@@ -11,4 +11,14 @@ public class PilTrigger : MonoBehaviour {
         Destroy(gameObject);
 
     }
+    public void EatBluePill() {
+        print("Blue pill eaten");
+        Destroy(gameObject);
+
+    }
+    public void EatYellowPill() {
+        print("Yellow pill eaten");
+        Destroy(gameObject);
+
+    }
 }
