@@ -32,7 +32,7 @@ public class ActionTrigger : MonoBehaviour {
         }
     }
 
-        private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other) {
         var interactable = other.GetComponent<Interactable>();
         if (interactable) {
         }
@@ -47,12 +47,7 @@ public class ActionTrigger : MonoBehaviour {
 
             if (Input.GetKeyDown(KeyCode.F)) {
                 interactable.action.Invoke();
-                RemoveSecurityGuy();
-                pillsEaten++;
-                if (pillsEaten == 3) {
-                    // play sfx
-                    // Open path to Tony Stark
-                }
+
 
             }
         }
