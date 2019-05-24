@@ -2320,6 +2320,56 @@ PrefabInstance:
       propertyPath: m_Name
       value: House
       objectReference: {fileID: 0}
+    - target: {fileID: 7754596120407068562, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -902081654980241007, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657348631888998807, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077156505228933438, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8388867597364682118, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2935869880192170976, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598432678711717721, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4086598634769078129, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2893328837601579300, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -141866259740686492, guid: 81a2704046686ce4fab364efda91d9c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3129364371193226649, guid: 81a2704046686ce4fab364efda91d9c0,
         type: 3}
       propertyPath: m_IsActive
