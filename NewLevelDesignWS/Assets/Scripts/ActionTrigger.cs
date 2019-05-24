@@ -10,6 +10,9 @@ public class ActionTrigger : MonoBehaviour {
     public float notifyTime;
     float notifyTimer;
 
+    public int pillsEaten;
+    public List<GameObject> securityGuys;
+
     private void Start() {
         interactionText.text = "";
         notifyTimer = notifyTime;
@@ -44,6 +47,12 @@ public class ActionTrigger : MonoBehaviour {
 
             if (Input.GetKeyDown(KeyCode.F)) {
                 interactable.action.Invoke();
+                RemoveSecurityGuy();
+                pillsEaten++;
+                if (pillsEaten == 3) {
+                    // play sfx
+                    // Open path to Tony Stark
+                }
 
             }
         }
@@ -62,5 +71,10 @@ public class ActionTrigger : MonoBehaviour {
     public void NotifyText(string s) {
         notifyTexts.Add(s);
 
+    }
+
+    public void RemoveSecurityGuy() {
+        // Play soundeffect
+        Destroy(securityGuys[pillsEaten]);
     }
 }
