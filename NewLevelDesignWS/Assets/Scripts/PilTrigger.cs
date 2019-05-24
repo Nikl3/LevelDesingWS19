@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PilTrigger : MonoBehaviour {
 
 
-    public void EatPill() {
-        print("pill eaten");
+    public void EatRedPill() {
+        print("Red pill eaten");
         Destroy(gameObject);
 
     }
