@@ -441,7 +441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4985995789235113403}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -12.628389, y: 1.9720964, z: -7.3929806}
+  m_LocalPosition: {x: -12.7, y: 1.904, z: -7.3929806}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6479252549532738183}
@@ -501,6 +501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6479252549532738183}
+  - component: {fileID: 1122141929}
   m_Layer: 0
   m_Name: ShitShack
   m_TagString: Untagged
@@ -530,6 +531,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1122141929
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048411944524681364}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33af4806a2dd66e4c8f1dcd526cea33b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &471458771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -590,17 +610,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 986e96d60afa02640a14782ffb6e7d51,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.000007629394
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 986e96d60afa02640a14782ffb6e7d51,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -89.999985
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 986e96d60afa02640a14782ffb6e7d51,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 4.0711098e-13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 986e96d60afa02640a14782ffb6e7d51, type: 3}
@@ -685,7 +705,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f78900cd82809814c801bc45335c4c5a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3095334
+      value: 1.309533
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f78900cd82809814c801bc45335c4c5a,
         type: 3}
