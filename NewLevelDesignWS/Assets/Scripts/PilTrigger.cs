@@ -8,6 +8,7 @@ public class PilTrigger : MonoBehaviour {
     public GameObject pilEffect;
     public GameObject player;
     ActionTrigger at;
+    public GameObject starkDoorTrigger;
 
     private void Start() {
         at = player.GetComponent<ActionTrigger>();
@@ -41,7 +42,9 @@ public class PilTrigger : MonoBehaviour {
         at.pillsEaten++;
         at.ResetText();
         if (at.pillsEaten == 3) {
+            starkDoorTrigger.SetActive(true);
             // play sfx
+
             // Open path to Tony Stark
         }
     }
