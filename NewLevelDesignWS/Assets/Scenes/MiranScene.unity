@@ -1536,11 +1536,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: House scene
       objectReference: {fileID: 0}
-    - target: {fileID: 8492648691738506605, guid: 579a940c9ce19724186b4b6f6c72419b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1307071384961157486, guid: 579a940c9ce19724186b4b6f6c72419b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1596,10 +1591,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8296172668196007102, guid: 579a940c9ce19724186b4b6f6c72419b,
+    - target: {fileID: 693514052510918896, guid: 579a940c9ce19724186b4b6f6c72419b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693514052510918899, guid: 579a940c9ce19724186b4b6f6c72419b,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 579a940c9ce19724186b4b6f6c72419b, type: 3}
