@@ -435,7 +435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &215907187
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2837,6 +2837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_JumpSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 693514053287466226, guid: 579a940c9ce19724186b4b6f6c72419b,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.145
       objectReference: {fileID: 0}
     - target: {fileID: 721056896878238540, guid: 579a940c9ce19724186b4b6f6c72419b,
         type: 3}

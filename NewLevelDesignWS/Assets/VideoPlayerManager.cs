@@ -30,8 +30,12 @@ public class VideoPlayerManager : MonoBehaviour {
         yield return new WaitForSeconds(.8f);
 
         StartVideoFadeIN.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         videoScreen.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        videoScreen.GetComponent<Animator>().Play("VideoStartFade");
+        yield return new WaitForSeconds(1.5f);
+
         vp.Play();
         //yield return new WaitUntil(() => !vp.isPlaying);
         //print("jepa");
