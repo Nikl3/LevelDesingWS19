@@ -10,6 +10,7 @@ public class VideoPlayerManager : MonoBehaviour {
     public GameObject videoScreen;
     public GameObject StartVideoFadeIN;
     public GameObject player;
+    public GameObject audio;
     public Animator animator;
 
 
@@ -25,7 +26,8 @@ public class VideoPlayerManager : MonoBehaviour {
 
     IEnumerator StartVideo() {
         animator.Play("Mitrrrorror");
-        yield return new WaitForSeconds(.4f);
+        audio.GetComponent<AudioSource>().enabled = false;
+        yield return new WaitForSeconds(.8f);
 
         StartVideoFadeIN.SetActive(true);
         yield return new WaitForSeconds(1f);
