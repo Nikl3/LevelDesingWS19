@@ -6,6 +6,9 @@ public class DoorAction : MonoBehaviour {
 
     Animator animator;
     bool open = false;
+    public string openDoor;
+    public string closeDoor;
+
 
 
     private void Start() {
@@ -14,11 +17,11 @@ public class DoorAction : MonoBehaviour {
 
     public void InteractDoor() {
         if (!open) {
-            animator.Play("Auki_Huussi");
+            animator.Play(openDoor);
             open = true;
 
         } else {
-            animator.Play("Kiinni_Huussi");
+            animator.Play(closeDoor);
             open = false;
         }
     }
