@@ -9,9 +9,12 @@ public class PilTrigger : MonoBehaviour {
     public GameObject player;
     ActionTrigger at;
     public GameObject starkDoorTrigger;
+    
+    
 
     private void Start() {
         at = player.GetComponent<ActionTrigger>();
+
     }
 
 
@@ -37,7 +40,12 @@ public class PilTrigger : MonoBehaviour {
 
     }
 
+    void RandomizePlayerMovement() {
+        //var controller = player.GetComponent<FirstPersonController>();
+    }
+
     void PillEffect() {
+        RandomizePlayerMovement();
         at.RemoveSecurityGuy();
         at.pillsEaten++;
         at.ResetText();
